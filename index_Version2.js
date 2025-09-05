@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
 
-import authRoutes from './routes_auth_Version2.js';
+import authRoutes from './routes/auth.js';
 import employeeRoutes from './routes_employees_Version2.js';
 
 dotenv.config();
